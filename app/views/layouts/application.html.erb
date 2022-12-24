@@ -8,6 +8,24 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <%= javascript_include_tag "assets/vendors/js/vendor.bundle.base.js" %>
+    <%= javascript_include_tag "assets/template.js" %>
+
+    <!--OK with import map -->
+    <%#= javascript_include_tag "assets/vendors/chart.js/Chart.min.js" %>
+
+    <%= javascript_include_tag "assets/js/dashboard.js" %>
+    <%#= javascript_include_tag "assets/vendors/progressbar.js/progressbar.min.js" %>
+    <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap.min.js" %>
+    <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" %>
+    <%= javascript_include_tag "assets/vendors/owl-carousel-2/owl.carousel.min.js" %>
+    <%= javascript_include_tag "assets/js/off-canvas.js" %>
+    <%= javascript_include_tag "assets/js/hoverable-collapse.js" %>
+    <%= javascript_include_tag "assets/js/misc.js" %>
+    <%= javascript_include_tag "assets/js/settings.js" %>
+    <%= javascript_include_tag "assets/js/todolist.js" %>
+
   </head>
 
   <body>

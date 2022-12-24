@@ -12,4 +12,12 @@
  *
  *= require_tree .
  *= require_self
+
+ *= require assets/vendors/mdi/css/materialdesignicons.min
+ *= require assets/vendors/css/vendor.bundle.base
+ *= require assets/vendors/jvectormap/jquery-jvectormap
+ *= require assets/vendors/flag-icon-css/css/flag-icon.min
+ *= require assets/vendors/owl-carousel-2/owl.carousel.min
+ *= require assets/vendors/owl-carousel-2/owl.theme.default.min
+ *= require assets/css/style
  */
