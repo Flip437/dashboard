@@ -10,21 +10,24 @@
     <%= javascript_importmap_tags %>
 
     <%= javascript_include_tag "assets/vendors/js/vendor.bundle.base.js" %>
-    <%= javascript_include_tag "assets/template.js" %>
 
     <!--OK with import map -->
     <%#= javascript_include_tag "assets/vendors/chart.js/Chart.min.js" %>
-
-    <%= javascript_include_tag "assets/js/dashboard.js" %>
     <%#= javascript_include_tag "assets/vendors/progressbar.js/progressbar.min.js" %>
+    <!--OK with import map -->
+
     <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap.min.js" %>
     <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" %>
-    <%= javascript_include_tag "assets/vendors/owl-carousel-2/owl.carousel.min.js" %>
-    <%= javascript_include_tag "assets/js/off-canvas.js" %>
-    <%= javascript_include_tag "assets/js/hoverable-collapse.js" %>
-    <%= javascript_include_tag "assets/js/misc.js" %>
-    <%= javascript_include_tag "assets/js/settings.js" %>
-    <%= javascript_include_tag "assets/js/todolist.js" %>
+    <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" %>
+
+    <%#= javascript_include_tag "assets/js/off-canvas.js" %> <!-- CUSTOM JS -->
+    <%#= javascript_include_tag "assets/js/hoverable-collapse.js" %> <!-- CUSTOM JS -->
+    <%#= javascript_include_tag "assets/js/misc.js" %> <!-- CUSTOM JS -->
+    <%#= javascript_include_tag "assets/js/settings.js" %> <!-- CUSTOM JS copy paste in assets/template.js-->
+    <%#= javascript_include_tag "assets/js/todolist.js" %> <!-- CUSTOM JS copy paste in assets/template.js -->
+    <%#= javascript_include_tag "assets/js/dashboard.js" %> <!-- CUSTOM JS copy paste in assets/template.js -->
+    <%= javascript_include_tag "assets/template.js" %>
+
 
   </head>
 
