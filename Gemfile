@@ -71,4 +71,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+# gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
