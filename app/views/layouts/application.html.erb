@@ -9,24 +9,24 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <%= javascript_include_tag "assets/vendors/js/vendor.bundle.base.js" %>
+    <%= javascript_include_tag "template/vendors/js/vendor.bundle.base.js" %>
 
     <!--OK with import map -->
-    <%#= javascript_include_tag "assets/vendors/chart.js/Chart.min.js" %>
-    <%#= javascript_include_tag "assets/vendors/progressbar.js/progressbar.min.js" %>
+    <%#= javascript_include_tag "template/vendors/chart.js/Chart.min.js" %>
+    <%#= javascript_include_tag "template/vendors/progressbar.js/progressbar.min.js" %>
     <!--OK with import map -->
 
-    <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap.min.js" %>
-    <%= javascript_include_tag "assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" %>
+    <%= javascript_include_tag "template/vendors/jvectormap/jquery-jvectormap.min.js" %>
+    <%= javascript_include_tag "template/vendors/jvectormap/jquery-jvectormap-world-mill-en.js" %>
     <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" %>
 
-    <%#= javascript_include_tag "assets/js/off-canvas.js" %> <!-- CUSTOM JS -->
-    <%#= javascript_include_tag "assets/js/hoverable-collapse.js" %> <!-- CUSTOM JS -->
-    <%#= javascript_include_tag "assets/js/misc.js" %> <!-- CUSTOM JS -->
-    <%#= javascript_include_tag "assets/js/settings.js" %> <!-- CUSTOM JS copy paste in assets/template.js-->
-    <%#= javascript_include_tag "assets/js/todolist.js" %> <!-- CUSTOM JS copy paste in assets/template.js -->
-    <%#= javascript_include_tag "assets/js/dashboard.js" %> <!-- CUSTOM JS copy paste in assets/template.js -->
-    <%= javascript_include_tag "assets/js/template.js" %>
+    <%= javascript_include_tag "template/js/off-canvas.js" %> <!-- CUSTOM JS -->
+    <%= javascript_include_tag "template/js/hoverable-collapse.js" %> <!-- CUSTOM JS -->
+    <%= javascript_include_tag "template/js/misc.js" %> <!-- CUSTOM JS -->
+    <%#= javascript_include_tag "template/js/settings.js" %> <!-- CUSTOM JS copy paste in template/template.js-->
+    <%#= javascript_include_tag "template/js/todolist.js" %> <!-- CUSTOM JS copy paste in template/template.js -->
+    <%#= javascript_include_tag "template/js/dashboard.js" %> <!-- CUSTOM JS copy paste in template/template.js -->
+    <%= javascript_include_tag "template/js/template.js" %>
 
 
   </head>
