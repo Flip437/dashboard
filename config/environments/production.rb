@@ -34,7 +34,7 @@ Rails.application.configure do
   puts ENV["RAILS_SERVE_STATIC_FILES"].present?
   puts "RAILS_SERVE_STATIC_FILES"
   puts "RAILS_SERVE_STATIC_FILES"
-  config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
+  config.public_file_server.enabled = false
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
